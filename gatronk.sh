@@ -25,8 +25,8 @@ npm install --save-dev @nomicfoundation/hardhat-toolbox
 echo "Hardhat toolbox installed."
 
 echo "Creating .env file..."
-read -p "Enter your private key: " PRIVATE_KEY
-echo "PRIVATE_KEY=$PRIVATE_KEY" > .env
+read -p "Enter your private key: " 0x9193fe78121ef90ceeb8fcd2be2e40514955bf3463ce74e553c5d4fce7ae02ca
+echo "PRIVATE_KEY=0x9193fe78121ef90ceeb8fcd2be2e40514955bf3463ce74e553c5d4fce7ae02ca" > .env
 echo ".env file created."
 
 echo "Configuring Hardhat..."
@@ -171,3 +171,4 @@ echo "Running getMessage.js..."
 npx hardhat run scripts/getMessage.js --network swisstronik
 echo "Message retrieved."
 echo "Done! Subscribe: https://t.me/GaCryptOfficial"
+
